@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "grechka-mod",
+  "version": "1.0.0",
+  "name": "Grechka Companion Mod",
+  "description": "Adds an immortal companion dog named Grechka",
+  "authors": [
+    "Artist"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/grechka/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.grechka.mod.GreczkaMod"
+    ],
+    "client": [
+      "net.grechka.mod.GrechkaModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}
